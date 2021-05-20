@@ -9,8 +9,10 @@ public class Factory {
 
     public ProductAbstract getProduct(String type){
         switch (type){
-            case "A":return new ProductA();
-            case "B":return new ProductB();
+            case "A":
+                System.out.println("简单工厂生产了A产品");return new ProductA();
+            case "B":
+                System.out.println("简单共产生产了B产品");return new ProductB();
             default:return null;
         }
     }

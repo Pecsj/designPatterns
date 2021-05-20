@@ -4,6 +4,6 @@ public class ProductA extends ProductAbstract {
 
     @Override
     public void show() {
-        System.out.println("a产品");
+        System.out.println("使用A产品");
     }
 }
